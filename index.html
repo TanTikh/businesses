@@ -22,10 +22,10 @@
         </div>
         <div class="menu">
           <ul class="menu__list">
-            <li><a href="#" class="header__link">Home</a></li>
-            <li><a href="#" class="header__link">About Us</a></li>
-            <li><a href="#" class="header__link">Our Approch</a></li>
-            <li><a href="#" class="header__link">Our Work</a></li>
+            <li><a href="#1" class="header__link">Home</a></li>
+            <li><a href="#2" class="header__link">About Us</a></li>
+            <li><a href="#3" class="header__link">Our Approch</a></li>
+            <li><a href="#4" class="header__link">Our Work</a></li>
           </ul>
         </div>
         <div class="header-btn"><a href="#" class="header-btn__link">Free Consultation</a></div>
@@ -34,16 +34,18 @@
   </header>
   <div class="main">
     <div class="container">
-      <h1 class="main__title">We Providing</h1>
-      <p class="main__text">Social Media marketing for businesses</p>
-      <div class="main-btn"><a href="#" class="main-btn__link">Free Consultation</a>
+      <div class="main__title">
+        <h1 id="1">We Providing</h1>
+        <p class="main__text">Social Media marketing for businesses</p>
+        <div class="main-btn"><a href="#" class="main-btn__link">Free Consultation</a>
+        </div>
       </div>
     </div>
   </div>
   <div class="about">
     <div class="container">
       <div class="section-title">
-        <h2>About Us</h2>
+        <h2 id="2">About Us</h2>
         <p class="section-title__subtitle">We are added our major Services</p>
       </div>
       <div class="about__items">
@@ -77,7 +79,7 @@
   <div class="approch">
     <div class="container">
       <div class="section-title">
-        <h2>Our Approch</h2>
+        <h2 id="3">Our Approch</h2>
         <p class="section-title__subtitle">Check Our approches step by step ( how we do it )</p>
       </div>
       <div class="steps">
@@ -147,7 +149,7 @@
   <div class="works">
     <div class="container">
       <div class="works-title">
-        <h2>Our Work</h2>
+        <h2 id="4">Our Work</h2>
         <p class="works-title__subtitle">We are added our featured works below</p>
       </div>
       <div class="work-row">
@@ -208,8 +210,73 @@
       </div>
     </div>
   </div>
+  <div class="getsubmit">
+    <div class="container">
+      <div class="getsubmit-title">
+        <h2>Get Your Free Facebook Analysis Now</h2>
+        <p class="getsubmit-title__subtitle">Enter your details below</p>
+        <div class="getform-open"><img src="/img/arrow.png" alt=""></div>
+      </div>
+      <div class="getform">
+        <div class="getform-close"><img src="/img/x.png" alt=""></div>
+
+        <form action="submit" method="POST">
+          <p>Sit down with our experts to receive a free customized marketing plan for your business + Learn How To
+            Use Google and Facebook to get 5000% ROI or more</p>
+          <ul class="wrapper">
+            <li class="form-row"><input type="text" name="username" placeholder="Your Name"></li>
+            <li class="form-row"><input type="tel" name="phone-number" placeholder="Contact Number"></li>
+            <li class="form-row"><input type="text" name="username" placeholder="Company Name"></li>
+            <li class="form-row"><button type="submit" name="submit" value="SUBMIT NOW">SUBMIT NOW</button></li>
+          </ul>
+        </form>
+      </div>
+    </div>
   </div>
-  <footer></footer>
+  <div class="social">
+    <div class="container">
+      <h3 class="social__title">Get in touch</h3>
+      <ul class="social-icons">
+        <li class="social-link"><a href="#"><img src="/img/fb.svg" alt=""></a></li>
+        <li class="social-link"><a href="#"><img src="/img/tw.svg" alt=""></a></li>
+        <li class="social-link"><a href="#"><img src="/img/gplus.svg" alt=""></a></li>
+        <li class="social-link"><a href="#"><img src="/img/in.svg" alt=""></a></li>
+      </ul>
+      <p class="social__subtitle">Subscribe to our newsletter to stay update with what is new</p>
+      <form action="submit" method="post" class="subscribe">
+        <ul>
+          <li class="subscribe__input"><input type="email" name="email" placeholder="Email Address"></li>
+          <li><button class="subscribe__btn" type="submit" name="submit" value="Subscribe">Subscribe</button></li>
+
+        </ul>
+      </form>
+
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="copiright">
+        <p>Cssauthor.com © 2014 All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <div class="popup">
+    <div class="popup-container">
+      <div class="popup-content">
+        <h3 class="popup-content__title">Get Your Free Consultation</h3>
+        <form action="#" class="popup-form">
+          <input type="text" name="username" class="popup-form__input" placeholder="Your Name" required>
+          <input type="tel" name="phone-number" class="popup-form__input" placeholder="Contact Number" required>
+          <input type="text" name="username" class="popup-form__input" placeholder="Company Name" required>
+          <div class="popup-form-buttons">
+            <button type="submit" name="submit" class="popup-form__btn" value="SUBMIT NOW">SUBMIT NOW</button>
+            <button type="reset" name="cancel" class="popup-form__btn-c" value="SUBMIT NOW">Cancel</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   <script src="/js/jquery-3.5.0.min.js"></script>
   <script src="/js/script.js"></script>
 </body>
